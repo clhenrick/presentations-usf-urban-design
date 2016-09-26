@@ -47,28 +47,118 @@
 				</section>
 
 				<section>
-					<h3>Topics</h3>
+					<h2>Topics</h2>
 					<p>My Work and how it relates to:</p>
 					<ul>
-						<li>Open Data</li>
-						<li>Civic Tech</li>
-						<li>Housing & Social Justice</li>
+						<li class="fragment fade-up">Open Data</li>
+						<li class="fragment fade-up">Civic Tech</li>
+						<li class="fragment fade-up">Housing & Social Justice</li>
+						<li class="fragment fade-up">Narrative & Exploration</li>
+						<li class="fragment fade-up">Tools of the Trade</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2></h2>
-					<p></p>
+					<h2>About Me...</h2>
+					<p>
+						<span class="fragment fade-up">Art School (drop out) <span class="fragment highlight-red">=></span></span>
+						<span class="fragment fade-up">Bike Messenger <span class="fragment highlight-red">=></span></span>
+						</br>
+						<span class="fragment fade-up">Cartographer + GIS Speacilist <span class="fragment highlight-red">=></span></span>
+						<span class="fragment fade-up">Geo-Web Developer</span>
+					</p>
+
+					<aside class="notes">
+						While at MFA DT I became interested in housing, tenants rights, and open data relating to it in NYC.
+					</aside>
 				</section>
 
 				<section>
-					<h2></h2>
-					<p></p>
+					<h2><em>WORK</em></h2>
+				</section>
+
+				<!-- AM I RENT STABILIZED? -->
+				<section>
+					<h4>Am I Rent Stabilized?</h4>
+					<img alt="am i rent stabilized animated gif" src="images/amirentstabilized.gif" />
+
+					<aside class="notes">
+						- using open data & tech to motivate average people to become activists
+						- there's a cash incentive but I decided not to go that route
+					</aside>
+				</section>
+
+				<section>
+					<h4>Am I Rent Stabilized?</h4>
+					<img alt="am i rent stabilized animated gif" src="images/amirentstabilized-langs.gif" />
+
+					<aside class="notes">
+						- multi-lingual was important
+						- translated all of the site's content to spanish and chinese (next two most commonly spoken languages in NYC)
+					</aside>
+				</section>
+
+				<!-- NORTHWEST BUSHWICK COMMUNITY MAP -->
+				<section>
+					<h4>The Northwest Bushwick Community Map</h4>
+					<img src="images/bushwick-map.gif" />
+				</section>
+
+				<!-- TOXICITY MAP  -->
+				<section>
+					<h4>Greenpoint Williamsburg Toxicity Map</h4>
+					<img alt="toxicity map animated gif" src="images/nag-toxicity-map.gif"  />
+				</section>
+
+				<!-- DAP MAP -->
+				<section>
+					<h4>The Displacement Alert Project Map</h4>
+					<img src="images/dap-map.gif" />
+				</section>
+
+				<!-- LANDSCAPES OF PROFIT -->
+				<section>
+					<h4>Landscapes of Profit</h4>
+					<img src="images/landscapes-of-profit.gif" />
+				</section>
+
+				<!-- TOOLS OF THE TRADE -->
+				<section id="tools-of-the-trade">
+					<h3>Tools of the Trade</h3>
+					<ul>
+						<li class="fragment fade-up">Javascript <span class="fragment fade-up">Javascript</span> <span class="fragment fade-up">Javascript!!!</span></li>
+						<li class="fragment fade-up">Map Tiles</li>
+						<li class="fragment fade-up">GeoJSON</li>
+						<li class="fragment fade-up">QGIS</li>
+						<li class="fragment fade-up">SQL</li>
+						<li class="fragment fade-up">PostGIS</li>
+						<li class="fragment fade-up">Leaflet.JS</li>
+						<li class="fragment fade-up">CARTO(DB)(.JS)</li>
+						<li class="fragment fade-up">MapBox</li>
+						<li class="fragment fade-up">D3.JS</li>
+						<li class="fragment fade-up">Node.JS</li>
+						<li class="fragment fade-up">CSS & Sass</li>
+					</ul>
+				</section>
+
+				<!-- FIN -->
+				<section>
+					<h2>Thank you!</h2>
+					<p>
+						Twitter: <a href="https://twitter.com/chrislhenrick" target="_blank">@chrislhenrick</a>
+					</p>
+					<p>
+						Email: <a mailto="chrishenrick@gmail.com">chrishenrick [at] gmail</a>
+					</p>
+					<p>
+						Website: <a href="http://clhenrick.io" target="_blank">clhenrick.io</a>
+					</p>
 				</section>
 
 			</div>
 
 		</div>
+		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -77,18 +167,16 @@
 				progress: true,
 				history: true,
 				center: true,
+				fragments: true,
+				showNotes: false,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
-				// dependencies: [
-				// 	{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-				// 	{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-				// 	{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-				// 	{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-				// 	{ src: 'plugin/zoom-js/zoom.js', async: true },
-				// 	{ src: 'plugin/notes/notes.js', async: true }
-				// ]
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
 			});
 
 		</script>
